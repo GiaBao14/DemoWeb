@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100%;
+    height: 180px;
+    background-color: antiquewhite;
+}
+header div{
+    float: left;
+}
+header div.menu ul li{
+    display: flex;
+    float: left;
+}
+header div#logo img{
+    width: 150px;
+    height: 150px;
+}
+
+header div#logo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+header div.menu {
+    margin-top: 60px;
+}
+
+header div#lienhe{
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
+header div#dangnhap {
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+header div.menu ul li a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color:  darkblue;
+}
+
+header div.menu ul li a:hover{
+    color:red;
+}
+
+header div#lienhe a{
+    text-decoration: none;
+    color: darkblue;
+}
+header div#dangnhap a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+header div#lienhe a:hover{
+    color: red;
+}
+header div#dangnhap a:hover{
+    color:red;
+}
+
+
+body{
+    background-color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+*{
+    box-sizing: border-box;
+}
+#benngoai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+form{
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    padding: 30px;
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+.form_group{
+    margin-bottom: 15px;
+    position: relative;
+}
+input{
+    height: 50px;
+    width: 300px;
+    outline: none;
+    border: 1px solid #dadce0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: inherit;
+    color: #202124;
+    transition: all 0.3s ease-in-out;
+}
+label{
+    position: absolute;
+    padding: 0px 5px;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+.form_group input:focus{
+    border: 1.5px solid #1a73e8;
+}
+.form_group input:focus + label, .form_group input:valid + label{
+    top: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1a73e8;
+}
+form a >p{
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+}
+form a > p:hover{
+    color: #1a73e8;
+}
+input#login{
+    background-color: blue;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+input#login:hover{
+    opacity: 0.6;
+}
+form div#taotaikhoan a {
+    text-decoration: none;
+}
+form div#taotaikhoan a p:hover{
+    color: red;
+}
+div#taotaikhoan{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+form div#quenmatkhau a {
+    text-decoration: none;
+}
+form div#quenmatkhau a p:hover{
+    color: red;
+}
+div#quenmatkhau{
+    margin-top: 10px;
+    margin-right: 150px;
+}
+footer {
+    display: flex;
+    width: 100%;
+    background-color: rgba(31, 216, 173, 0.785);
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 100px 30px;
+    border-radius: 40px 40px 0 0;
+}
+
+footer .lienhe{
+    display: flex;
+    justify-content: space-around;
+    gap:150px;
+}
+footer .lienhe .col h2{
+    text-align: center;
+}
+
+footer .lienhe .link{
+    padding-top: 20px;
+    font-size: 20px;
+}
+footer .lienhe .link a{
+    margin-right: 20px;
+}
+footer .lienhe .link a:hover{
+    color:red;
+}
+footer .diachi p{
+    padding-top: 20px;
+}
+
+footer .lienhe h2{
+    text-align: center;
+}
+
+footer .lienhe p{
+    padding-top: 10px;
+}
+
+
+

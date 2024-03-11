@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100%;
+    height: 180px;
+    background-color: antiquewhite;
+}
+header div{
+    float: left;
+}
+header div.menu ul li{
+    display: flex;
+    float: left;
+}
+header div#logo img{
+    width: 150px;
+    height: 150px;
+}
+
+header div#logo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+header div.menu {
+    margin-top: 60px;
+}
+
+header div#lienhe{
+    margin-top: 90px;
+    margin-left: 200px;
+}
+
+header div#dangnhap {
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+header div.menu ul li a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color:  darkblue;
+}
+
+header div.menu ul li a:hover{
+    color:red;
+}
+
+header div#lienhe a{
+    text-decoration: none;
+    color: darkblue;
+}
+header div#dangnhap a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+header div#lienhe a:hover{
+    color: red;
+}
+header div#dangnhap a:hover{
+    color:red;
+}
+
+
+body{
+    background-color: beige;
+}
+
+
+nav div#anhgioithieu img{
+    width: 100%;
+    height: 650px;
+}
+nav div#slogan p{
+    margin-top: 50px;
+    margin-left: 330px;
+    font-size: 40px;
+    color: rgb(234, 138, 13);
+}
+nav div#vanban p{
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+nav div.amthucmientay{
+    text-align: center;
+}
+.rau{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+}
+.monan{
+    width: 200px;
+    height: 200px;
+}
+.banh{
+    width: 200px;
+    height: 200px;    
+}
+.canh{
+    width: 200px;
+    height: 200px;    
+}
+.monanmientay{
+    width: 200px;
+    height: 200px;    
+}
+
+
+nav div#about{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+nav div#hinhanh{
+    text-align: center;
+}
+.quangcanh{
+    width: 200px;
+    height: 200px; 
+    margin-top: 50px;  
+}
+.dacsan{
+    width: 200px;
+    height: 200px;    
+}
+nav div#cacmonan{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+nav div#gioithieumonan{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+nav div#food{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+nav div#suhapdan{
+    font-size: 25px;
+    font-weight: bold;
+}
+nav div#anh img{
+    width: 600px;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 10px;  
+}
+nav div#a{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+nav div#b{
+    font-size: 25px;
+    font-weight: bold;
+}
+nav div#lau{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+nav div#c{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.d{
+    margin-left: 300px;
+    margin-top: 10px;
+}
+nav div#ba{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+nav div#me img{
+    margin-left: 350px;
+    width: 600px;
+}
+nav div#me p{
+    font-size: 20px;
+    text-align: center;
+}
+.bon{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+nav div#cha p{
+    font-size: 20px;
+    text-align: center;
+}
+nav div#thuyhaisan{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+nav div#caloc{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.canuong{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+nav div#e{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+nav div#bakhia{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.bakhiarangme{
+    margin-left: 70px;
+    margin-top: 10px;
+    height: 400px;
+}
+nav div#o{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+nav div#u{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+nav div#vunuchandai{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+nav div#ket{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+nav div#culture p{
+    margin-left: 30px;
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bold; 
+}
+nav div#vanhoa{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+nav div#yeu{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.dbscl{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+nav div#so p{
+    margin-left: 250px;
+    font-size: 17px;
+}
+nav div#ti{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+nav div#bao{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.op{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+nav div#danda p{
+    margin-left: 250px;
+    font-size: 17px;
+}
+nav div#long{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.otp{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+nav div#bom p{
+    margin-left: 250px;
+    font-size: 17px;
+}
+nav div#duong{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+nav div#duong p{
+    font-size: 20px;
+}
+nav div#duong img{
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+nav div#nhi{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+nav div#nhi img{
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+nav div#vy{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+nav div#vy img{
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+nav div#xuyen{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+nav div#hau{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+footer {
+    display: flex;
+    width: 1015px;
+    background-color: rgba(31, 216, 173, 0.785);
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 100px 30px;
+    border-radius: 40px 40px 0 0;
+}
+
+footer .lienhe{
+    display: flex;
+    justify-content: space-around;
+    gap:150px;
+}
+footer .lienhe .col h2{
+    text-align: center;
+}
+
+footer .lienhe .link{
+    padding-top: 20px;
+    font-size: 20px;
+}
+footer .lienhe .link a{
+    margin-right: 20px;
+}
+footer .lienhe .link a:hover{
+    color:red;
+}
+footer .diachi p{
+    padding-top: 20px;
+}
+
+footer .lienhe h2{
+    text-align: center;
+}
+
+footer .lienhe p{
+    padding-top: 10px;
+}
+
+
+
+
+
